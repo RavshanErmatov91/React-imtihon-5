@@ -61,10 +61,6 @@ function Login() {
             });
           }
           console.log(res);
-        })
-        .catch(() => {
-          toast.error("error authenticating");
-          dispatch(CLEAR_INPUT());
         });
 
       dispatch(CLEAR_INPUT());
