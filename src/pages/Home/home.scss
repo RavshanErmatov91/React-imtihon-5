@@ -1,0 +1,39 @@
+.main {
+  text-align: center;
+  margin-top: 29px;
+
+  &-img {
+    margin-bottom: 40px;
+  }
+  &__bottom {
+    &__ul {
+      display: flex;
+      justify-content: center;
+
+      &__item {
+        margin: 0 69px;
+
+        a {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 20px;
+
+          // color: rgba(255, 255, 255, 0.6);
+          flex: none;
+          order: 0;
+          flex-grow: 0;
+          transition: all ease 0.7s;
+
+          &:hover {
+            color: #c9ac8c;
+          }
+        }
+      }
+    }
+  }
+}
+
+.colorr {
+  color: #c9ac8c;
+}
